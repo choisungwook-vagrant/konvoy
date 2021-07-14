@@ -1,0 +1,47 @@
+bootstrap:
+  name: konvoy1-bootstrap
+  box: centos/7
+  hostname: bootstrap
+  ip: 192.168.25.130
+  memory: 2048
+  cpu: 2
+
+controlplane:
+  name: konvoy1-controlplane
+  box: centos/7
+  hostname: controlplane
+  ip: 192.168.25.131
+  memory: 4096
+  cpu: 4
+
+worker1:
+  name: konvoy1-worker1
+  box: centos/7
+  hostname: worker1
+  ip: 192.168.25.132
+  memory: 4096
+  cpu: 4
+
+worker2:
+  name: konvoy1-worker2
+  box: centos/7
+  hostname: worker2
+  ip: 192.168.25.133
+  memory: 4096
+  cpu: 4
+
+worker3:
+  name: konvoy1-worker3
+  box: centos/7
+  hostname: worker3
+  ip: 192.168.25.133
+  memory: 4096
+  cpu: 4
+
+worker4:
+  name: konvoy1-worker4
+  box: centos/7
+  hostname: worker4
+  ip: 192.168.25.134
+  memory: 4096
+  cpu: 4
